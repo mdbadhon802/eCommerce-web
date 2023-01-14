@@ -1,0 +1,229 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main{
+    background-color: whitesmoke;
+}
+/* nav styles */
+
+#nav-title{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 95px;
+    margin-left: 166px;
+    margin-right: 120px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 34px;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    
+}
+
+/* nav styles finished */
+
+/* main sectiion start  */
+
+section{
+    display: flex;
+    margin-left: 125px;
+    margin-top: 162px;
+    margin-right: 165px;
+}
+
+section h1{
+    font-weight: 700;
+    font-size: 52px;
+}
+
+section p{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.section-btn{
+    width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    
+    
+}
+
+section buttoon{
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+section img{
+    background-image: url('../images/new\ circle\ 1.png');
+    background-repeat: no-repeat;
+    
+    
+}
+
+.img-main{
+    width: 440px;
+    height: 414px;
+    padding-left: 128px;
+    padding-bottom: 100px;
+    position: relative;
+    left: 50px;
+    
+    
+}
+
+/* logo section */
+
+.logos{
+    margin-left: 200px;
+}
+
+.logos img{
+    margin: 30px;
+
+}
+
+/* logo section finished */
+
+.middle-title{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+/* Middle title finished */
+
+/* New section start  */
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-left:  180px;
+    
+}
+.parent > div {
+    
+    padding: 10px;
+    background-color: whitesmoke;
+    box-shadow: 1px;
+    border-radius: 5px;
+}
+.parent h2{
+    font-weight: 500;
+    font-size: 28px;
+}
+.parent h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+.parent p{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+
+ /* h4 tag outside section  */
+
+h4{
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+    justify-content: flex-end;
+    margin-right: 180px;
+}
+
+/* h4 tag outside section  end*/
+
+
+.third-section{
+    display: flex;
+    margin-left: 165px;
+}
+.title-p-btn{
+    padding-left: 96px; 
+}
+.third-section h3{
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.third-section p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+}
+.third-section button{
+    width: 155px;
+    height: 44px;  
+    font-weight: 700;
+    font-size: 16px; 
+    color: white;
+    background-color: #E02C6D;
+    border: none;
+}
+
+/* Footer start  */
+
+footer{
+    background-color:#1a0000;
+}
+.parent-footer{
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.parent-footer h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+.parent-footer p{
+    font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.parent-footer p{
+    font-weight: 700;
+    font-size: 14px;    
+}
+.parent-footer a{
+    margin: 10px;
+}
+
+/* footer end  */
+
+/* media quary start  */
+
+@media only screen and (max-width:576px) {
+    body{
+        width: 100px;
+    }
+    .parent{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+ 
